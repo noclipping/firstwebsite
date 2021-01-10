@@ -78,12 +78,35 @@ img{
     margin-top:10%;
 }
 .srchcontainer{
+    
     display:flex;
     justify-content:center;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    
 }
+.srchcontainer:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+    border-top-color: rgba(223, 225, 229, 0);
+    border-right-color: rgba(223, 225, 229, 0);
+    border-bottom-color: rgba(223, 225, 229, 0);
+    border-left-color: rgba(223, 225, 229, 0);
+}
+
 .srchbox{
     border-radius:0%;
+    border: none;
     height:40px;
+
 }
 .footer{
     display:flex;
