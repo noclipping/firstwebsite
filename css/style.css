@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin 0;
+}
+body{
+    font-family:'Lato',sans-serif;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+
+}
+h1,
+h2{
+    font-size:15px;
+    line-height:1.2;
+    margin: 10px 0;
+}
+p{
+    margin: 10px 0;
+}
+img{
+    width: 100%;
+}
+
+
+
+.navbar{
+    background-color:rgb(255, 255, 255);
+    height: 70px;
+}
+
+.navbar ul {
+    display:flex;
+}
+.navbar a{
+    color:black;
+    padding:3px;
+    margin:0 10px;
+}
+
+.navbar a:hover{
+    border-bottom:2px rgb(102, 181, 187) solid;
+}
+.navbar .flex{
+    justify-content:space-between;
+}
+
+.container{
+    
+    margin: 0 auto;
+    overflow:auto;
+    padding:0 20px;
+}
+.flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+.navbar .signin a {
+    background-color:#4683ea;
+    border-radius:15%;
+    color:white; 
+}
+.gglimg{
+    display:flex;
+    justify-content: center;
+    margin-top:10%;
+}
+.srchcontainer{
+    display:flex;
+    justify-content:center;
+}
+.srchbox{
+    border-radius:0%;
+    height:40px;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    position: fixed; 
+    padding: 10px 10px 0px 10px; 
+    bottom: 0; 
+    width: 100%; 
+    /* Height of the footer*/  
+    height: 60px; 
+    background-color: rgb(238, 238, 238);
+}
+.footer ul {
+    display:flex;
+}
+.searchbutton{
+    padding:10px;
+    border:none;
+    text-decoration: none;
+    margin: 0 0 20px 20px;
+    margin-top:2%;
+}
+.searchcontainer{
+    display: flex;
+    justify-content: center;
+    
+}
