@@ -108,6 +108,9 @@ img{
     height:40px;
 
 }
+.srchbox:focus {
+    outline: none;
+}
 .footer{
     display:flex;
     justify-content: center;
